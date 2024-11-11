@@ -6,12 +6,18 @@
       "password": "1"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "test",
       "password": "123456"
     }
   ],
-  "sessions": [],
+  "sessions": [
+    {
+      "id": "b3vi6dxomf5m3d23w5q",
+      "userId": "1",
+      "lastAccess": "2024-11-11T13:25:58.286Z"
+    }
+  ],
   "coupons": [
     {
       "id": "7232",
