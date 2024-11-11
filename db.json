@@ -6,6 +6,12 @@
       "password": "1"
     }
   ],
-  "sessions": [],
+  "sessions": [
+    {
+      "id": "kbifcwfcftm3d0hvoz",
+      "userId": "1",
+      "lastAccess": "2024-11-11T12:41:02.981Z"
+    }
+  ],
   "coupons": []
 }

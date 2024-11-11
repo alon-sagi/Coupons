@@ -1,1 +1,25 @@
 /* AuthForm Styles */
+
+.inputs-container {
+  display: flex; 
+  flex-direction: column;
+  gap: 15px; 
+  direction: rtl;
+}
+   
+.input-icon-container {
+  display: flex; 
+  align-items: center; 
+  gap: 10px;
+}
+  
+.inputs-container input.error {
+  border-color: #dc3545;
+}
+  
+.buttons-container {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 5px;
+}
