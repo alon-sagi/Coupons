@@ -1,1 +1,25 @@
 /* AdminPanel Styles */
+
+.logout-button {
+  background-color: rgb(234, 72, 43);
+}
+  
+.back-button {
+  background: transparent; 
+  color: #111; 
+  font-size: 2em;
+  transition: transform 0.2s ease-in-out;
+}
+  
+.back-button:hover {
+  background: transparent;
+  transform: rotate(-360deg);
+}
+  
+.panel-buttons-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  gap: 5px;
+}

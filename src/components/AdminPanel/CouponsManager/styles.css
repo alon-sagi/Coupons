@@ -1,0 +1,74 @@
+/* CouponsManager Styles */
+  
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+  
+.form-group input {
+  text-align: center;
+}
+  
+.form-group textarea {
+  text-align: right;
+  direction: rtl;
+  font-family: Arial, sans-serif;
+}
+  
+.form-group select {
+  text-align: center;
+}
+  
+.form-group.checkbox label {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 5px;
+}
+  
+.coupons-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+  
+.coupon-item {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+  
+.coupon-item h4 {
+  margin: 0 0 10px 0;
+  color: #007bff;
+}
+  
+.coupon-item p {
+  direction: rtl;
+  text-align: right;
+  margin: 5px 0;
+}
+  
+.coupon-item p span {
+  font-weight: 600;
+}
+  
+.coupon-actions,
+.form-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+  
+.coupon-actions .edit-coupon-button {
+  background: rgb(110, 118, 229);
+}
+  
+.coupon-actions .delete-coupon-button {
+  background: tomato;
+}

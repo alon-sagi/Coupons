@@ -6,12 +6,20 @@
       "password": "1"
     }
   ],
-  "sessions": [
+  "sessions": [],
+  "coupons": [
     {
-      "id": "kbifcwfcftm3d0hvoz",
-      "userId": "1",
-      "lastAccess": "2024-11-11T12:41:02.981Z"
+      "id": "7232",
+      "code": "test",
+      "description": "קוד קופון בדיקה",
+      "discountType": "percentage",
+      "discountValue": "25",
+      "expiryDate": "2024-11-29",
+      "maxUses": "10",
+      "allowMultiple": true,
+      "createdBy": "1",
+      "createdAt": "2024-11-11T13:06:38.377Z",
+      "usageCount": 0
     }
-  ],
-  "coupons": []
+  ]
 }
