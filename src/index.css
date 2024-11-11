@@ -4,15 +4,80 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #f0f4f8;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+input,
+textarea,
+select {
+  background-color: #fff;
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.25;
+}
+
+button {
+  font-size: 0.875rem; 
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.375rem;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  transition: .2s ease;
+}
+
+button:hover {
+  opacity: 0.8;
+  background: rgb(8, 165, 8);
+}
+
+hr {
+  border: 1px solid #d1d5db; 
+  margin: 2rem 0;
+}
+
+form button[type="submit"] {
+  background: rgb(8, 165, 8);
+}
+
+form button.clear,
+form button.cancel {
+  background: tomato;
+}
+  
+p.error {
+  color: #dc3545;
+  font-size: 0.875rem;
+  margin-top: 1rem;
+  text-align: center;
+  direction: rtl;
+  font-weight: 600;
+  text-align: center;
 }
 
 @media (prefers-color-scheme: light) {

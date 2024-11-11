@@ -1,0 +1,39 @@
+/* Navbar Styles */
+
+.navbar-container {
+  position: fixed; 
+  top: 0; 
+  right: 0; 
+  width: 100%;
+  background-color: #f9fafb;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+    
+.view-button {
+  margin: 0.5rem; 
+  background: rgb(38, 38, 130);
+}
+     
+.credit {
+  margin: 0.5rem; 
+  display: flex;
+  gap: 5px;
+  font-weight: 600;
+  transition: transform 0.3s ease;
+}
+    
+.credit:hover {
+  transform: translateY(-4px);
+}
+  
+.credit .copy-right {
+  color: rgb(38, 38, 130);
+  border: 2px solid rgb(38, 38, 130);
+  border-radius: 50%;
+  padding: 2px;
+}
+  
