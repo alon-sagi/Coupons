@@ -1,1 +1,23 @@
 /* ClientPanel Styles */
+
+.apply-coupon-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  gap: 5px;
+}
+  
+.apply-coupon-container input {
+  text-align: right;
+}
+  
+.original-price-container,
+.updated-price-container {
+  display: flex; 
+  justify-content: space-between;
+}
+  
+.updated-price-container {
+  font-weight: 600;
+}

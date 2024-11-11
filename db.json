@@ -4,6 +4,11 @@
       "id": "1",
       "name": "Admin",
       "password": "1"
+    },
+    {
+      "id": 2,
+      "name": "test",
+      "password": "123456"
     }
   ],
   "sessions": [],
@@ -19,7 +24,7 @@
       "allowMultiple": true,
       "createdBy": "1",
       "createdAt": "2024-11-11T13:06:38.377Z",
-      "usageCount": 0
+      "usageCount": 2
     }
   ]
 }
